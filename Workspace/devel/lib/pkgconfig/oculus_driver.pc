@@ -1,8 +1,0 @@
-prefix=/home/keshav/Documents/repos/adVentuRe/Workspace/devel
-
-Name: oculus_driver
-Description: Description of oculus_driver
-Version: 0.0.0
-Cflags: -I/home/keshav/Documents/repos/adVentuRe/Workspace/src/oculus/oculus_driver/include
-Libs: -L/home/keshav/Documents/repos/adVentuRe/Workspace/devel/lib -loculus_driver
-Requires: roscpp geometry_msgs tf oculus_msgs
