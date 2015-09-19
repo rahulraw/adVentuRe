@@ -1,5 +1,5 @@
 <launch>
-  <param name="device" command="$(find adVentuRe)/cam/src/camera_parameters.sh"/>
+  <param name="device" command="$(find cam)/src/camera_parameters.sh"/>
 
   <node ns ="left" name="usb_cam_left" pkg="usb_cam" type="usb_cam_node" output="screen" >
     <param name="video_device" value="/dev/cam_left" />
