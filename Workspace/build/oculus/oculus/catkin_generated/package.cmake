@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "oculus")
+set(oculus_MAINTAINER "Takashi Ogura <t.ogura@gmail.com>")
+set(oculus_DEPRECATED "")
+set(oculus_VERSION "0.1.0")
+set(oculus_BUILD_DEPENDS )
+set(oculus_RUN_DEPENDS "oculus_driver" "oculus_msgs")
+set(oculus_BUILDTOOL_DEPENDS "catkin")
