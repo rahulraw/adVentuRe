@@ -1,0 +1,2 @@
+
+-DCATKIN_DEVEL_PREFIX=/home/keshav/Documents/repos/adVentuRe/Workspace/devel -DCMAKE_INSTALL_PREFIX=/home/keshav/Documents/repos/adVentuRe/Workspace/install -G Unix Makefiles
