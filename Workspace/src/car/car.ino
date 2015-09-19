@@ -16,7 +16,7 @@
 #define MAX_SPEED           1540
 
 Servo throttleServo, steerServo, brakeServo;
-float x_input, y_input;
+int x_input = 1500, y_input = 1500;
 boolean emergency, old = false;
 
 void joyCb(const sensor_msgs::Joy& joy)
@@ -43,15 +43,6 @@ void joyCb(const sensor_msgs::Joy& joy)
   {
     x_input = MIN_STEER; 
   }
-  
-  if (y_input > MAX_SPEED)
-  {
-    y_input = MAX_SPEED;
-  }
-  else if (y_input < MIN_SPEED)
-  {
-    y_input = MIN_SPEED;
-  }  
 }
 
 // ROS setup
@@ -73,6 +64,7 @@ void setup_ESC()
   while ((millis() - temp_time) < 5000)
   {
     throttleServo.writeMicroseconds(NEUTRAL);
+    steerServo.writeMicroseconds(NEUTRAL);
   }
 }
 
@@ -103,11 +95,31 @@ void loop()
     y_input = NEUTRAL;
   }
   
+  int speed_signal;
+  
+  if (y_input >= 1500)
+  {
+    speed_signal = int(((MAX_SPEED - NEUTRAL)/(2000.0 - NEUTRAL)) * (y_input - NEUTRAL)) + NEUTRAL;
+  }
+  else if (y_input < 1500)
+  {
+    speed_signal = int((-(NEUTRAL - MIN_SPEED)/(NEUTRAL - 1000.0)) * (NEUTRAL - y_input)) + NEUTRAL;
+  }
+    
+  if (speed_signal > MAX_SPEED)
+  {
+    speed_signal = MAX_SPEED;
+  }
+  else if (speed_signal < MIN_SPEED)
+  {
+    speed_signal = MIN_SPEED;
+  }
+  
   steer_msg.data = x_input;
-  speed_msg.data = y_input;
+  speed_msg.data = speed_signal;
   
   steerServo.writeMicroseconds(x_input);
-  throttleServo.writeMicroseconds(y_input);
+  throttleServo.writeMicroseconds(speed_signal);
   
   nh.spinOnce();
   steer_cmd.publish(&steer_msg);
