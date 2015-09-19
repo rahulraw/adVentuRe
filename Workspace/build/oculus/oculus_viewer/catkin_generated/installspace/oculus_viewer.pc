@@ -1,0 +1,8 @@
+prefix=/home/keshav/Documents/repos/adVentuRe/Workspace/install
+
+Name: oculus_viewer
+Description: Description of oculus_viewer
+Version: 0.0.0
+Cflags: -I/home/keshav/Documents/repos/adVentuRe/Workspace/install/include
+Libs: -L/home/keshav/Documents/repos/adVentuRe/Workspace/install/lib -loculus_viewer
+Requires: roscpp oculus_msgs

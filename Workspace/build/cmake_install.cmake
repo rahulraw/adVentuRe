@@ -117,7 +117,11 @@ ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unsp
 IF(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   INCLUDE("/home/keshav/Documents/repos/adVentuRe/Workspace/build/gtest/cmake_install.cmake")
+  INCLUDE("/home/keshav/Documents/repos/adVentuRe/Workspace/build/oculus/oculus/cmake_install.cmake")
+  INCLUDE("/home/keshav/Documents/repos/adVentuRe/Workspace/build/oculus/oculus_msgs/cmake_install.cmake")
   INCLUDE("/home/keshav/Documents/repos/adVentuRe/Workspace/build/cam/cmake_install.cmake")
+  INCLUDE("/home/keshav/Documents/repos/adVentuRe/Workspace/build/oculus/oculus_viewer/cmake_install.cmake")
+  INCLUDE("/home/keshav/Documents/repos/adVentuRe/Workspace/build/oculus/oculus_driver/cmake_install.cmake")
 
 ENDIF(NOT CMAKE_INSTALL_LOCAL_ONLY)
 

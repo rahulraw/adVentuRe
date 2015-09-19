@@ -233,48 +233,6 @@ rosgraph_msgs_generate_messages_py/fast:
 	cd /home/keshav/Documents/repos/adVentuRe/Workspace/build && $(MAKE) -f cam/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build.make cam/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build
 .PHONY : rosgraph_msgs_generate_messages_py/fast
 
-# Convenience name for target.
-cam/CMakeFiles/std_msgs_generate_messages_cpp.dir/rule:
-	cd /home/keshav/Documents/repos/adVentuRe/Workspace/build && $(MAKE) -f CMakeFiles/Makefile2 cam/CMakeFiles/std_msgs_generate_messages_cpp.dir/rule
-.PHONY : cam/CMakeFiles/std_msgs_generate_messages_cpp.dir/rule
-
-# Convenience name for target.
-std_msgs_generate_messages_cpp: cam/CMakeFiles/std_msgs_generate_messages_cpp.dir/rule
-.PHONY : std_msgs_generate_messages_cpp
-
-# fast build rule for target.
-std_msgs_generate_messages_cpp/fast:
-	cd /home/keshav/Documents/repos/adVentuRe/Workspace/build && $(MAKE) -f cam/CMakeFiles/std_msgs_generate_messages_cpp.dir/build.make cam/CMakeFiles/std_msgs_generate_messages_cpp.dir/build
-.PHONY : std_msgs_generate_messages_cpp/fast
-
-# Convenience name for target.
-cam/CMakeFiles/std_msgs_generate_messages_lisp.dir/rule:
-	cd /home/keshav/Documents/repos/adVentuRe/Workspace/build && $(MAKE) -f CMakeFiles/Makefile2 cam/CMakeFiles/std_msgs_generate_messages_lisp.dir/rule
-.PHONY : cam/CMakeFiles/std_msgs_generate_messages_lisp.dir/rule
-
-# Convenience name for target.
-std_msgs_generate_messages_lisp: cam/CMakeFiles/std_msgs_generate_messages_lisp.dir/rule
-.PHONY : std_msgs_generate_messages_lisp
-
-# fast build rule for target.
-std_msgs_generate_messages_lisp/fast:
-	cd /home/keshav/Documents/repos/adVentuRe/Workspace/build && $(MAKE) -f cam/CMakeFiles/std_msgs_generate_messages_lisp.dir/build.make cam/CMakeFiles/std_msgs_generate_messages_lisp.dir/build
-.PHONY : std_msgs_generate_messages_lisp/fast
-
-# Convenience name for target.
-cam/CMakeFiles/std_msgs_generate_messages_py.dir/rule:
-	cd /home/keshav/Documents/repos/adVentuRe/Workspace/build && $(MAKE) -f CMakeFiles/Makefile2 cam/CMakeFiles/std_msgs_generate_messages_py.dir/rule
-.PHONY : cam/CMakeFiles/std_msgs_generate_messages_py.dir/rule
-
-# Convenience name for target.
-std_msgs_generate_messages_py: cam/CMakeFiles/std_msgs_generate_messages_py.dir/rule
-.PHONY : std_msgs_generate_messages_py
-
-# fast build rule for target.
-std_msgs_generate_messages_py/fast:
-	cd /home/keshav/Documents/repos/adVentuRe/Workspace/build && $(MAKE) -f cam/CMakeFiles/std_msgs_generate_messages_py.dir/build.make cam/CMakeFiles/std_msgs_generate_messages_py.dir/build
-.PHONY : std_msgs_generate_messages_py/fast
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -293,9 +251,6 @@ help:
 	@echo "... rosgraph_msgs_generate_messages_cpp"
 	@echo "... rosgraph_msgs_generate_messages_lisp"
 	@echo "... rosgraph_msgs_generate_messages_py"
-	@echo "... std_msgs_generate_messages_cpp"
-	@echo "... std_msgs_generate_messages_lisp"
-	@echo "... std_msgs_generate_messages_py"
 	@echo "... test"
 .PHONY : help
 
