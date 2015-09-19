@@ -35,10 +35,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/keshav/Documents/repos/adVentuRe/Workspace/src
+CMAKE_SOURCE_DIR = /home/archielee/adVentuRe/Workspace/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/keshav/Documents/repos/adVentuRe/Workspace/build
+CMAKE_BINARY_DIR = /home/archielee/adVentuRe/Workspace/build
 
 # Utility rule file for doxygen.
 
@@ -60,6 +60,6 @@ CMakeFiles/doxygen.dir/clean:
 .PHONY : CMakeFiles/doxygen.dir/clean
 
 CMakeFiles/doxygen.dir/depend:
-	cd /home/keshav/Documents/repos/adVentuRe/Workspace/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/keshav/Documents/repos/adVentuRe/Workspace/src /home/keshav/Documents/repos/adVentuRe/Workspace/src /home/keshav/Documents/repos/adVentuRe/Workspace/build /home/keshav/Documents/repos/adVentuRe/Workspace/build /home/keshav/Documents/repos/adVentuRe/Workspace/build/CMakeFiles/doxygen.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/archielee/adVentuRe/Workspace/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/archielee/adVentuRe/Workspace/src /home/archielee/adVentuRe/Workspace/src /home/archielee/adVentuRe/Workspace/build /home/archielee/adVentuRe/Workspace/build /home/archielee/adVentuRe/Workspace/build/CMakeFiles/doxygen.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/doxygen.dir/depend
 

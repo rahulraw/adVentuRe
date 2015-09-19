@@ -1,8 +1,8 @@
-prefix=/home/keshav/Documents/repos/adVentuRe/Workspace/install
+prefix=/home/archielee/adVentuRe/Workspace/install
 
 Name: cam
 Description: Description of cam
 Version: 0.0.0
 Cflags: 
-Libs: -L/home/keshav/Documents/repos/adVentuRe/Workspace/install/lib 
+Libs: -L/home/archielee/adVentuRe/Workspace/install/lib 
 Requires: 

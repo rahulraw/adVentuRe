@@ -1,2 +1,2 @@
-cam:oculus_sdk
--DCATKIN_DEVEL_PREFIX=/home/keshav/Documents/repos/adVentuRe/Workspace/devel -DCMAKE_INSTALL_PREFIX=/home/keshav/Documents/repos/adVentuRe/Workspace/install -G Unix Makefiles
+cam:timeSync
+-DCATKIN_DEVEL_PREFIX=/home/archielee/adVentuRe/Workspace/devel -DCMAKE_INSTALL_PREFIX=/home/archielee/adVentuRe/Workspace/install -G Unix Makefiles

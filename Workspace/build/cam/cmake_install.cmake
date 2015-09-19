@@ -1,8 +1,8 @@
-# Install script for directory: /home/keshav/Documents/repos/adVentuRe/Workspace/src/cam
+# Install script for directory: /home/archielee/adVentuRe/Workspace/src/cam
 
 # Set the install prefix
 IF(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  SET(CMAKE_INSTALL_PREFIX "/home/keshav/Documents/repos/adVentuRe/Workspace/install")
+  SET(CMAKE_INSTALL_PREFIX "/home/archielee/adVentuRe/Workspace/install")
 ENDIF(NOT DEFINED CMAKE_INSTALL_PREFIX)
 STRING(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -33,17 +33,17 @@ IF(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 ENDIF(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/keshav/Documents/repos/adVentuRe/Workspace/build/cam/catkin_generated/installspace/cam.pc")
+  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/archielee/adVentuRe/Workspace/build/cam/catkin_generated/installspace/cam.pc")
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/cam/cmake" TYPE FILE FILES
-    "/home/keshav/Documents/repos/adVentuRe/Workspace/build/cam/catkin_generated/installspace/camConfig.cmake"
-    "/home/keshav/Documents/repos/adVentuRe/Workspace/build/cam/catkin_generated/installspace/camConfig-version.cmake"
+    "/home/archielee/adVentuRe/Workspace/build/cam/catkin_generated/installspace/camConfig.cmake"
+    "/home/archielee/adVentuRe/Workspace/build/cam/catkin_generated/installspace/camConfig-version.cmake"
     )
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/cam" TYPE FILE FILES "/home/keshav/Documents/repos/adVentuRe/Workspace/src/cam/package.xml")
+  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/cam" TYPE FILE FILES "/home/archielee/adVentuRe/Workspace/src/cam/package.xml")
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 

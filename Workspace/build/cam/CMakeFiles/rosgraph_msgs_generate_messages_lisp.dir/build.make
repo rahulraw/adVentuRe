@@ -35,10 +35,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/keshav/Documents/repos/adVentuRe/Workspace/src
+CMAKE_SOURCE_DIR = /home/archielee/adVentuRe/Workspace/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/keshav/Documents/repos/adVentuRe/Workspace/build
+CMAKE_BINARY_DIR = /home/archielee/adVentuRe/Workspace/build
 
 # Utility rule file for rosgraph_msgs_generate_messages_lisp.
 
@@ -56,10 +56,10 @@ cam/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build: rosgraph_msgs_gen
 .PHONY : cam/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build
 
 cam/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/clean:
-	cd /home/keshav/Documents/repos/adVentuRe/Workspace/build/cam && $(CMAKE_COMMAND) -P CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/cmake_clean.cmake
+	cd /home/archielee/adVentuRe/Workspace/build/cam && $(CMAKE_COMMAND) -P CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/cmake_clean.cmake
 .PHONY : cam/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/clean
 
 cam/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/depend:
-	cd /home/keshav/Documents/repos/adVentuRe/Workspace/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/keshav/Documents/repos/adVentuRe/Workspace/src /home/keshav/Documents/repos/adVentuRe/Workspace/src/cam /home/keshav/Documents/repos/adVentuRe/Workspace/build /home/keshav/Documents/repos/adVentuRe/Workspace/build/cam /home/keshav/Documents/repos/adVentuRe/Workspace/build/cam/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/archielee/adVentuRe/Workspace/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/archielee/adVentuRe/Workspace/src /home/archielee/adVentuRe/Workspace/src/cam /home/archielee/adVentuRe/Workspace/build /home/archielee/adVentuRe/Workspace/build/cam /home/archielee/adVentuRe/Workspace/build/cam/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : cam/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/depend
 

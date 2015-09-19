@@ -1,7 +1,7 @@
 <launch>
   <param name="device" command="$(find cam)/src/camera_parameters.sh"/>
 
-  <node ns ="left" name="usb_cam_left" pkg="usb_cam" type="usb_cam_node" output="screen" >
+  <node ns ="no_sync" name="left" pkg="usb_cam" type="usb_cam_node" output="screen" >
     <param name="video_device" value="/dev/cam_left" />
     <param name="image_width" value="352" />
     <param name="image_height" value="288" />
@@ -16,7 +16,7 @@
     -->
   </node>
 
-  <node ns ="right" name="usb_cam_right" pkg="usb_cam" type="usb_cam_node" output="screen" >
+  <node ns ="no_sync" name="right" pkg="usb_cam" type="usb_cam_node" output="screen" >
     <param name="video_device" value="/dev/cam_right" />
     <param name="image_width" value="352" />
     <param name="image_height" value="288" />
@@ -31,13 +31,13 @@
     -->
   </node>
 
-  <node ns ="left" name="output_video_cam_left" pkg="image_view" type="image_view" respawn="false" output="screen">
-       <remap from="image" to="/left/usb_cam_left/image_raw" />
+  <node ns ="no_sync" name="output_video_cam_left" pkg="image_view" type="image_view" respawn="false" output="screen">
+       <remap from="image" to="/no_sync/left/image_raw" />
        <param name="autosize" value="true" />
    </node>
 
-   <node ns ="right" name="output_video_cam_right" pkg="image_view" type="image_view" respawn="false" output="screen">
-       <remap from="image" to="/right/usb_cam_right/image_raw" />
+   <node ns ="no_sync" name="output_video_cam_right" pkg="image_view" type="image_view" respawn="false" output="screen">
+       <remap from="image" to="/no_sync/right/image_raw" />
        <param name="autosize" value="true" />
    </node>
 

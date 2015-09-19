@@ -1,0 +1,8 @@
+prefix=/home/archielee/adVentuRe/Workspace/install
+
+Name: timeSync
+Description: Description of timeSync
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/archielee/adVentuRe/Workspace/install/lib 
+Requires: 
