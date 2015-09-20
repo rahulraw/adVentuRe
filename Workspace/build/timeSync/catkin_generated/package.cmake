@@ -1,7 +1,0 @@
-set(_CATKIN_CURRENT_PACKAGE "timeSync")
-set(timeSync_MAINTAINER "archielee <archielee@todo.todo>")
-set(timeSync_DEPRECATED "")
-set(timeSync_VERSION "0.0.0")
-set(timeSync_BUILD_DEPENDS "roscpp" "rospy" "std_msgs")
-set(timeSync_RUN_DEPENDS "roscpp" "rospy" "std_msgs")
-set(timeSync_BUILDTOOL_DEPENDS "catkin")

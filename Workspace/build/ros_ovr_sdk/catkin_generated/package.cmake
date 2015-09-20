@@ -1,7 +1,0 @@
-set(_CATKIN_CURRENT_PACKAGE "ros_ovr_sdk")
-set(ros_ovr_sdk_MAINTAINER "rebhuhnd <rebhuhnd@onid.oregonstate.edu>")
-set(ros_ovr_sdk_DEPRECATED "")
-set(ros_ovr_sdk_VERSION "0.0.1")
-set(ros_ovr_sdk_BUILD_DEPENDS )
-set(ros_ovr_sdk_RUN_DEPENDS )
-set(ros_ovr_sdk_BUILDTOOL_DEPENDS "catkin")
