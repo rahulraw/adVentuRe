@@ -1,0 +1,2 @@
+cam:oculus_rviz_plugins:ros_ovr_sdk:timeSync
+-DCATKIN_DEVEL_PREFIX=/home/rahul/code/adVentuRe/Workspace/devel -DCMAKE_INSTALL_PREFIX=/home/rahul/code/adVentuRe/Workspace/install -G Unix Makefiles

@@ -1,0 +1,8 @@
+prefix=/home/rahul/code/adVentuRe/Workspace/devel
+
+Name: timeSync
+Description: Description of timeSync
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/rahul/code/adVentuRe/Workspace/devel/lib 
+Requires: 
