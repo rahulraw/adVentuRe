@@ -1,0 +1,8 @@
+prefix=/home/rahul/code/adVentuRe/Workspace/install
+
+Name: cam
+Description: Description of cam
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/rahul/code/adVentuRe/Workspace/install/lib 
+Requires: 

@@ -1,0 +1,8 @@
+prefix=/home/rahul/code/adVentuRe/Workspace/devel
+
+Name: ros_ovr_sdk
+Description: Description of ros_ovr_sdk
+Version: 0.0.1
+Cflags: -I/home/rahul/code/adVentuRe/Workspace/devel/sdk/include
+Libs: -L/home/rahul/code/adVentuRe/Workspace/devel/lib -l:/home/rahul/code/adVentuRe/Workspace/devel/sdk/lib/libOVRRT64_0.so.5.0.1 -l:/home/rahul/code/adVentuRe/Workspace/devel/sdk/lib/libOVRRT64_0.so.5 /home/rahul/code/adVentuRe/Workspace/devel/sdk/lib/libOVR.a
+Requires: 
