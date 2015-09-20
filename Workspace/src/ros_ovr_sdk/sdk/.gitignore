@@ -1,0 +1,6 @@
+*.o
+*.d
+*.so.*
+*.a
+OculusWorldDemo
+ovr_sdk_linux_0.5.0.1/

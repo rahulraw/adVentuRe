@@ -1,8 +1,0 @@
-prefix=/home/keshav/Documents/repos/adVentuRe/Workspace/devel
-
-Name: cam
-Description: Description of cam
-Version: 0.0.0
-Cflags: 
-Libs: -L/home/keshav/Documents/repos/adVentuRe/Workspace/devel/lib 
-Requires: 
