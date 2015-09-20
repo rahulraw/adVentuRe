@@ -1,8 +1,0 @@
-prefix=/home/rahul/code/adVentuRe/Workspace/install
-
-Name: oculus_rviz_plugins
-Description: Description of oculus_rviz_plugins
-Version: 0.0.8
-Cflags: -I/home/rahul/code/adVentuRe/Workspace/install/include
-Libs: -L/home/rahul/code/adVentuRe/Workspace/install/lib -loculus_rviz_plugins
-Requires: rviz ros_ovr_sdk

@@ -1,23 +1,23 @@
 Determining if the pthread_create exist failed with the following output:
-Change Dir: /home/rahul/code/adVentuRe/Workspace/build/CMakeFiles/CMakeTmp
+Change Dir: /home/keshav/Documents/repos/adVentuRe/Workspace/build/CMakeFiles/CMakeTmp
 
-Run Build Command:/usr/bin/make "cmTryCompileExec1422433738/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec1422433738.dir/build.make CMakeFiles/cmTryCompileExec1422433738.dir/build
-make[1]: Entering directory `/home/rahul/code/adVentuRe/Workspace/build/CMakeFiles/CMakeTmp'
-/usr/bin/cmake -E cmake_progress_report /home/rahul/code/adVentuRe/Workspace/build/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building C object CMakeFiles/cmTryCompileExec1422433738.dir/CheckSymbolExists.c.o
-/usr/bin/cc    -o CMakeFiles/cmTryCompileExec1422433738.dir/CheckSymbolExists.c.o   -c /home/rahul/code/adVentuRe/Workspace/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
-Linking C executable cmTryCompileExec1422433738
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1422433738.dir/link.txt --verbose=1
-/usr/bin/cc       CMakeFiles/cmTryCompileExec1422433738.dir/CheckSymbolExists.c.o  -o cmTryCompileExec1422433738 -rdynamic 
-CMakeFiles/cmTryCompileExec1422433738.dir/CheckSymbolExists.c.o: In function `main':
+Run Build Command:/usr/bin/make "cmTryCompileExec2964515676/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2964515676.dir/build.make CMakeFiles/cmTryCompileExec2964515676.dir/build
+make[1]: Entering directory `/home/keshav/Documents/repos/adVentuRe/Workspace/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/keshav/Documents/repos/adVentuRe/Workspace/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2964515676.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec2964515676.dir/CheckSymbolExists.c.o   -c /home/keshav/Documents/repos/adVentuRe/Workspace/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec2964515676
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2964515676.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec2964515676.dir/CheckSymbolExists.c.o  -o cmTryCompileExec2964515676 -rdynamic 
+CMakeFiles/cmTryCompileExec2964515676.dir/CheckSymbolExists.c.o: In function `main':
 CheckSymbolExists.c:(.text+0x16): undefined reference to `pthread_create'
 collect2: error: ld returned 1 exit status
-make[1]: *** [cmTryCompileExec1422433738] Error 1
-make[1]: Leaving directory `/home/rahul/code/adVentuRe/Workspace/build/CMakeFiles/CMakeTmp'
-make: *** [cmTryCompileExec1422433738/fast] Error 2
+make[1]: Leaving directory `/home/keshav/Documents/repos/adVentuRe/Workspace/build/CMakeFiles/CMakeTmp'
+make[1]: *** [cmTryCompileExec2964515676] Error 1
+make: *** [cmTryCompileExec2964515676/fast] Error 2
 
-File /home/rahul/code/adVentuRe/Workspace/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+File /home/keshav/Documents/repos/adVentuRe/Workspace/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
 /* */
 #include <pthread.h>
 
@@ -33,117 +33,21 @@ int main(int argc, char** argv)
 }
 
 Determining if the function pthread_create exists in the pthreads failed with the following output:
-Change Dir: /home/rahul/code/adVentuRe/Workspace/build/CMakeFiles/CMakeTmp
+Change Dir: /home/keshav/Documents/repos/adVentuRe/Workspace/build/CMakeFiles/CMakeTmp
 
-Run Build Command:/usr/bin/make "cmTryCompileExec2057676425/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec2057676425.dir/build.make CMakeFiles/cmTryCompileExec2057676425.dir/build
-make[1]: Entering directory `/home/rahul/code/adVentuRe/Workspace/build/CMakeFiles/CMakeTmp'
-/usr/bin/cmake -E cmake_progress_report /home/rahul/code/adVentuRe/Workspace/build/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building C object CMakeFiles/cmTryCompileExec2057676425.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTryCompileExec2057676425.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
-Linking C executable cmTryCompileExec2057676425
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2057676425.dir/link.txt --verbose=1
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTryCompileExec2057676425.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2057676425 -rdynamic -lpthreads 
+Run Build Command:/usr/bin/make "cmTryCompileExec3323213751/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3323213751.dir/build.make CMakeFiles/cmTryCompileExec3323213751.dir/build
+make[1]: Entering directory `/home/keshav/Documents/repos/adVentuRe/Workspace/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/keshav/Documents/repos/adVentuRe/Workspace/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3323213751.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTryCompileExec3323213751.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec3323213751
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3323213751.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTryCompileExec3323213751.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3323213751 -rdynamic -lpthreads 
 /usr/bin/ld: cannot find -lpthreads
 collect2: error: ld returned 1 exit status
-make[1]: *** [cmTryCompileExec2057676425] Error 1
-make[1]: Leaving directory `/home/rahul/code/adVentuRe/Workspace/build/CMakeFiles/CMakeTmp'
-make: *** [cmTryCompileExec2057676425/fast] Error 2
+make[1]: *** [cmTryCompileExec3323213751] Error 1
+make[1]: Leaving directory `/home/keshav/Documents/repos/adVentuRe/Workspace/build/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec3323213751/fast] Error 2
 
-
-Determining if the Q_WS_WIN exist failed with the following output:
-Change Dir: /home/rahul/code/adVentuRe/Workspace/build/CMakeFiles/CMakeTmp
-
-Run Build Command:/usr/bin/make "cmTryCompileExec1451524505/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec1451524505.dir/build.make CMakeFiles/cmTryCompileExec1451524505.dir/build
-make[1]: Entering directory `/home/rahul/code/adVentuRe/Workspace/build/CMakeFiles/CMakeTmp'
-/usr/bin/cmake -E cmake_progress_report /home/rahul/code/adVentuRe/Workspace/build/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building CXX object CMakeFiles/cmTryCompileExec1451524505.dir/CheckSymbolExists.cxx.o
-/usr/bin/c++    -I/usr/include/qt4    -o CMakeFiles/cmTryCompileExec1451524505.dir/CheckSymbolExists.cxx.o -c /home/rahul/code/adVentuRe/Workspace/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
-/home/rahul/code/adVentuRe/Workspace/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main(int, char**)’:
-/home/rahul/code/adVentuRe/Workspace/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: ‘Q_WS_WIN’ was not declared in this scope
-   return ((int*)(&Q_WS_WIN))[argc];
-                   ^
-make[1]: *** [CMakeFiles/cmTryCompileExec1451524505.dir/CheckSymbolExists.cxx.o] Error 1
-make[1]: Leaving directory `/home/rahul/code/adVentuRe/Workspace/build/CMakeFiles/CMakeTmp'
-make: *** [cmTryCompileExec1451524505/fast] Error 2
-
-File /home/rahul/code/adVentuRe/Workspace/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
-/* */
-#include <QtCore/qglobal.h>
-
-int main(int argc, char** argv)
-{
-  (void)argv;
-#ifndef Q_WS_WIN
-  return ((int*)(&Q_WS_WIN))[argc];
-#else
-  (void)argc;
-  return 0;
-#endif
-}
-
-Determining if the Q_WS_QWS exist failed with the following output:
-Change Dir: /home/rahul/code/adVentuRe/Workspace/build/CMakeFiles/CMakeTmp
-
-Run Build Command:/usr/bin/make "cmTryCompileExec1959860954/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec1959860954.dir/build.make CMakeFiles/cmTryCompileExec1959860954.dir/build
-make[1]: Entering directory `/home/rahul/code/adVentuRe/Workspace/build/CMakeFiles/CMakeTmp'
-/usr/bin/cmake -E cmake_progress_report /home/rahul/code/adVentuRe/Workspace/build/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building CXX object CMakeFiles/cmTryCompileExec1959860954.dir/CheckSymbolExists.cxx.o
-/usr/bin/c++    -I/usr/include/qt4    -o CMakeFiles/cmTryCompileExec1959860954.dir/CheckSymbolExists.cxx.o -c /home/rahul/code/adVentuRe/Workspace/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
-/home/rahul/code/adVentuRe/Workspace/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main(int, char**)’:
-/home/rahul/code/adVentuRe/Workspace/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: ‘Q_WS_QWS’ was not declared in this scope
-   return ((int*)(&Q_WS_QWS))[argc];
-                   ^
-make[1]: *** [CMakeFiles/cmTryCompileExec1959860954.dir/CheckSymbolExists.cxx.o] Error 1
-make[1]: Leaving directory `/home/rahul/code/adVentuRe/Workspace/build/CMakeFiles/CMakeTmp'
-make: *** [cmTryCompileExec1959860954/fast] Error 2
-
-File /home/rahul/code/adVentuRe/Workspace/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
-/* */
-#include <QtCore/qglobal.h>
-
-int main(int argc, char** argv)
-{
-  (void)argv;
-#ifndef Q_WS_QWS
-  return ((int*)(&Q_WS_QWS))[argc];
-#else
-  (void)argc;
-  return 0;
-#endif
-}
-
-Determining if the Q_WS_MAC exist failed with the following output:
-Change Dir: /home/rahul/code/adVentuRe/Workspace/build/CMakeFiles/CMakeTmp
-
-Run Build Command:/usr/bin/make "cmTryCompileExec2936366499/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec2936366499.dir/build.make CMakeFiles/cmTryCompileExec2936366499.dir/build
-make[1]: Entering directory `/home/rahul/code/adVentuRe/Workspace/build/CMakeFiles/CMakeTmp'
-/usr/bin/cmake -E cmake_progress_report /home/rahul/code/adVentuRe/Workspace/build/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building CXX object CMakeFiles/cmTryCompileExec2936366499.dir/CheckSymbolExists.cxx.o
-/usr/bin/c++    -I/usr/include/qt4    -o CMakeFiles/cmTryCompileExec2936366499.dir/CheckSymbolExists.cxx.o -c /home/rahul/code/adVentuRe/Workspace/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
-/home/rahul/code/adVentuRe/Workspace/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main(int, char**)’:
-/home/rahul/code/adVentuRe/Workspace/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: ‘Q_WS_MAC’ was not declared in this scope
-   return ((int*)(&Q_WS_MAC))[argc];
-                   ^
-make[1]: *** [CMakeFiles/cmTryCompileExec2936366499.dir/CheckSymbolExists.cxx.o] Error 1
-make[1]: Leaving directory `/home/rahul/code/adVentuRe/Workspace/build/CMakeFiles/CMakeTmp'
-make: *** [cmTryCompileExec2936366499/fast] Error 2
-
-File /home/rahul/code/adVentuRe/Workspace/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
-/* */
-#include <QtCore/qglobal.h>
-
-int main(int argc, char** argv)
-{
-  (void)argv;
-#ifndef Q_WS_MAC
-  return ((int*)(&Q_WS_MAC))[argc];
-#else
-  (void)argc;
-  return 0;
-#endif
-}
 
